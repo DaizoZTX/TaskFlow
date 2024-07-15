@@ -1,0 +1,547 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema 
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="botonMenu_op1.Text" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="panelMenuOpc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-2, -3</value>
+  </data>
+  <data name="&gt;&gt;botonMenu_op2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;refresh.Parent" xml:space="preserve">
+    <value>panelHerramientas</value>
+  </data>
+  <data name="botonMenu_op1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 38</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tb_tipoDePerfil.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="botonMenu_op2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-3, 71</value>
+  </data>
+  <data name="&gt;&gt;refresh.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;boton1_menuDesplegable.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="panelHerramientas.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="boton_refresh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 0</value>
+  </data>
+  <data name="panelMenuOpc.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
+    <value>panelHerramientas</value>
+  </data>
+  <data name="&gt;&gt;button3.Name" xml:space="preserve">
+    <value>button3</value>
+  </data>
+  <data name="&gt;&gt;boton1_menuDesplegable.Name" xml:space="preserve">
+    <value>boton1_menuDesplegable</value>
+  </data>
+  <data name="&gt;&gt;botonMenu_op3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;botonMenu_inicioSesion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;botonMenu_op1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>796, 470</value>
+  </data>
+  <data name="&gt;&gt;refresh.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>panelHerramientas</value>
+  </data>
+  <data name="boton1_menuDesplegable.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="botonMenu_op1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;panelMenuOpc.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;botonMenu_op3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button3.Text" xml:space="preserve">
+    <value>™</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 0</value>
+  </data>
+  <data name="&gt;&gt;botonMenu_op3.Parent" xml:space="preserve">
+    <value>panelMenuOpc</value>
+  </data>
+  <data name="&gt;&gt;panelMenuOpc.Name" xml:space="preserve">
+    <value>panelMenuOpc</value>
+  </data>
+  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 22</value>
+  </data>
+  <data name="&gt;&gt;panelMenuOpc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panelMenuOpc.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="botonMenu_op2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="botonMenu_inicioSesion.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;botonMenu_inicioSesion.Name" xml:space="preserve">
+    <value>botonMenu_inicioSesion</value>
+  </data>
+  <data name="&gt;&gt;panelMenuOpc.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;boton_refresh.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tb_tipoDePerfil.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;boton_refresh.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="botonMenu_inicioSesion.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="boton_refresh.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="button3.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;refresh.Name" xml:space="preserve">
+    <value>refresh</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>780, -1</value>
+  </data>
+  <data name="tb_tipoDePerfil.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;botonMenu_op3.Name" xml:space="preserve">
+    <value>botonMenu_op3</value>
+  </data>
+  <data name="&gt;&gt;panelHerramientas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;botonMenu_op1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panelHerramientas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-4, -2</value>
+  </data>
+  <data name="panelMenuOpc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 474</value>
+  </data>
+  <data name="botonMenu_inicioSesion.Text" xml:space="preserve">
+    <value>Iniciar Sesion</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>pantallaInicial</value>
+  </data>
+  <data name="tb_tipoDePerfil.Location" type="System.Drawing.Point, System.Drawing">
+    <value>38, 4</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>TaskFlow V0.1</value>
+  </data>
+  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>749, -1</value>
+  </data>
+  <data name="botonMenu_op2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="botonMenu_op3.Text" xml:space="preserve">
+    <value>button5</value>
+  </data>
+  <data name="&gt;&gt;button3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tb_tipoDePerfil.Name" xml:space="preserve">
+    <value>tb_tipoDePerfil</value>
+  </data>
+  <data name="&gt;&gt;botonMenu_op2.Parent" xml:space="preserve">
+    <value>panelMenuOpc</value>
+  </data>
+  <data name="boton1_menuDesplegable.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tb_tipoDePerfil.Parent" xml:space="preserve">
+    <value>panelHerramientas</value>
+  </data>
+  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="botonMenu_inicioSesion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 423</value>
+  </data>
+  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+    <value>panelHerramientas</value>
+  </data>
+  <data name="&gt;&gt;botonMenu_op1.Name" xml:space="preserve">
+    <value>botonMenu_op1</value>
+  </data>
+  <data name="&gt;&gt;boton1_menuDesplegable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="boton1_menuDesplegable.Text" xml:space="preserve">
+    <value>☰</value>
+  </data>
+  <data name="&gt;&gt;panelHerramientas.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="botonMenu_op3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-3, 114</value>
+  </data>
+  <data name="panelHerramientas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>810, 23</value>
+  </data>
+  <data name="&gt;&gt;button2.Name" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;boton1_menuDesplegable.Parent" xml:space="preserve">
+    <value>panelHerramientas</value>
+  </data>
+  <data name="botonMenu_op3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="botonMenu_inicioSesion.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 8.25pt, style=Bold</value>
+  </data>
+  <data name="refresh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>169, -1</value>
+  </data>
+  <data name="boton1_menuDesplegable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 22</value>
+  </data>
+  <data name="botonMenu_op3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 8.25pt, style=Bold</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="botonMenu_op1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;botonMenu_op2.Name" xml:space="preserve">
+    <value>botonMenu_op2</value>
+  </data>
+  <data name="botonMenu_inicioSesion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 38</value>
+  </data>
+  <data name="botonMenu_op2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 38</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="botonMenu_op1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 28</value>
+  </data>
+  <data name="&gt;&gt;panelHerramientas.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;botonMenu_inicioSesion.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;botonMenu_op1.Parent" xml:space="preserve">
+    <value>panelMenuOpc</value>
+  </data>
+  <data name="botonMenu_op2.Text" xml:space="preserve">
+    <value>button4</value>
+  </data>
+  <data name="&gt;&gt;boton_refresh.Name" xml:space="preserve">
+    <value>boton_refresh</value>
+  </data>
+  <data name="button3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="refresh.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="botonMenu_op2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 8.25pt, style=Bold</value>
+  </data>
+  <data name="botonMenu_op3.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 22</value>
+  </data>
+  <data name="&gt;&gt;panelHerramientas.Name" xml:space="preserve">
+    <value>panelHerramientas</value>
+  </data>
+  <data name="&gt;&gt;boton_refresh.Parent" xml:space="preserve">
+    <value>panelHerramientas</value>
+  </data>
+  <data name="botonMenu_op1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;botonMenu_op2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;botonMenu_inicioSesion.Parent" xml:space="preserve">
+    <value>panelMenuOpc</value>
+  </data>
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="boton1_menuDesplegable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, -1</value>
+  </data>
+  <data name="botonMenu_op3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 38</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>es</value>
+  </metadata>
+</root>
